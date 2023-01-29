@@ -11,6 +11,6 @@ public class DockerController {
     @GetMapping("/info")
     public String getInfo()
     {
-        return "Hello Docker !!!!";
+        return "Docker image has been uploaded !!!!";
     }
 }
